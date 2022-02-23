@@ -1036,6 +1036,7 @@ footer {
 /* EMPLOYEE DOC */
 .employee {
     width: 330px;
+    text-align: left;
 }
 .employee-doc {
     width: 320px;
@@ -1181,10 +1182,22 @@ div.map {
 footer {
     padding: 20px;
 }
-
+.doc img {
+    width: 310px;
+    height: 420px;
+}
+/* EMPLOYEE DOC */
+.employee {
+    width: 310px;
+    text-align: left;
+}
+.employee-doc {
+    width: 310px;
+    height: 250px;
+}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
 .top-head {
     padding: 10px 0;
 }
@@ -1285,6 +1298,7 @@ footer {
 /* EMPLOYEE DOC */
 .employee {
     width: 300px;
+    text-align: left;
 }
 .employee-doc {
     width: 280px;
